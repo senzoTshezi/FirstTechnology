@@ -1,1 +1,42 @@
-/* You can add global styles to this file, and also import other style files */
+.navbar-light .navbar-nav .active .nav-link, 
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show, 
+.navbar-light .navbar-nav .show .nav-link {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+    color:white;
+}
+
+#Container{
+    width:100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#SideBar{
+    width: 35%;
+     height: 100%; 
+    background-color:	#008B8B ;
+    float: left;
+}
+#MainBody{
+    width: 85%;
+    height: 100%; 
+    background-color:white;
+    float: right;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
